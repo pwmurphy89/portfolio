@@ -1,0 +1,41 @@
+nav{
+	height: 120px;
+	color:white;
+	#titles{
+		display: inline-block;
+		position: absolute;
+		left:0%;
+		top:25px;
+			h1{
+				font-size: 50px;
+				float: left;
+				#p{
+					margin-right: -10px;
+				}
+				#w, #m{
+					margin-left:15px;
+
+				}
+				.first-letter{
+						font-size: 80px;
+
+				}
+			}
+			// h2{
+			// 	font-size: 100px;
+			// 	float:right;
+			// }
+			// .first-letter{
+			// 	font-size: 80px;
+			// }
+		}
+}
+li{
+	color: black;
+}
+#nav-list{
+	position: absolute;
+    top: 68px;
+    left: 69%;
+    font-size: 18px;
+}

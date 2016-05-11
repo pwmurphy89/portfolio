@@ -1,0 +1,42 @@
+/* line 1, ../compass/sass/style.scss */
+nav {
+  height: 120px;
+  color: white;
+}
+/* line 4, ../compass/sass/style.scss */
+nav #titles {
+  display: inline-block;
+  position: absolute;
+  left: 0%;
+  top: 25px;
+}
+/* line 9, ../compass/sass/style.scss */
+nav #titles h1 {
+  font-size: 50px;
+  float: left;
+}
+/* line 12, ../compass/sass/style.scss */
+nav #titles h1 #p {
+  margin-right: -10px;
+}
+/* line 15, ../compass/sass/style.scss */
+nav #titles h1 #w, nav #titles h1 #m {
+  margin-left: 15px;
+}
+/* line 19, ../compass/sass/style.scss */
+nav #titles h1 .first-letter {
+  font-size: 80px;
+}
+
+/* line 33, ../compass/sass/style.scss */
+li {
+  color: black;
+}
+
+/* line 36, ../compass/sass/style.scss */
+#nav-list {
+  position: absolute;
+  top: 68px;
+  left: 69%;
+  font-size: 18px;
+}

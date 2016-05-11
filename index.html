@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pwmurphy Portfolio</title>
+	<title>Patrick Murphy</title>
+	<link rel='stylesheet' type='text/css' href="styling/css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link rel='stylsheet' type='text/css' href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+
 </head>
 <body>
 	<div class="container">
-		<div id="main-container">
-			<div class="row header">
-				<div class="col-md-12 text-center">
-					<h1>PATRICK WILLIAM MURPHY</h1>
-					<h2>They say I run the streets, I say I'm just joggin</h2>
-				</div>
-			</div>
+		<div class="navbar-header text-center">
+			<nav id="navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		      	<div class="col-sm-12">
+		      		<div id="titles" class="col-sm-8">
+		      			<h1 class='text-left'><span id="p" class="first-letter">P</span>ATRICK<span id="w" class="first-letter">W</span>ILLIAM<span id="m" class="first-letter">M</span>URPHY</h1>
+		      			<!-- <h2 class="text-center">PORTFOLIO</h2> -->
+		      		</div>
+		  			<div id="nav-list" class="col-sm-4">
+			    		<ul class="nav navbar-nav">
+				    		<li class="page-scroll"><a id="me" href="PWMresume.pdf" target="_blank">Resume</a></li>
+					        <li><a class="page-scroll" href="#skills">Technologies</a></li>
+					        <li><a id="work" href="pages/projectsView.html" class="page-scroll">Projects</a></li>
+					        <li><a id="connect" class="page-scroll" href="#comment-container">Connect</a></li>
+			     		</ul>
+			     	</div>
+			    </div>
+			</nav>
 		</div>
 	</div>
+
+
+	<script>
+	$.backstretch("styling/images/city-slums-sunset.jpg");
+	</script>
 </body>
 </html>
