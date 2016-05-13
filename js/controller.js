@@ -5,13 +5,13 @@ myApp.config(function($routeProvider, $locationProvider){
 		templateUrl: 'portfolio/views/front.html',
 		controller: 'myController'
 	}).when('/technologies',{
-		templateUrl: 'portfolio/views/technologies',
+		templateUrl: 'portfolio/views/technologies.html',
 		controller: 'myController'
 	}).when('/projects',{
-		templateUrl: 'portfolio/views/projects',
+		templateUrl: 'portfolio/views/projects.html',
 		controller: 'myController'
 	}).when('/contact',{
-		templateUrl: 'portfolio/views/contact',
+		templateUrl: 'portfolio/views/contact.html',
 		controller: 'myController'
 	})
 });
