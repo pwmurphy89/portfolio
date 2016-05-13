@@ -3,40 +3,63 @@ nav {
   height: 120px;
   color: white;
 }
-/* line 4, ../compass/sass/style.scss */
-nav #titles {
-  display: inline-block;
-  position: absolute;
-  left: 0%;
-  top: 25px;
+
+/* line 5, ../compass/sass/style.scss */
+.navbar-toggle.collapsed {
+  z-index: 100;
 }
-/* line 9, ../compass/sass/style.scss */
-nav #titles h1 {
-  font-size: 50px;
-  float: left;
-}
-/* line 12, ../compass/sass/style.scss */
-nav #titles h1 #p {
-  margin-right: -10px;
+
+/* line 10, ../compass/sass/style.scss */
+#nav-navbar-collapse-1 ul {
+  float: right;
+  background-color: #222;
+  position: relative;
+  margin-top: 33px;
 }
 /* line 15, ../compass/sass/style.scss */
-nav #titles h1 #w, nav #titles h1 #m {
-  margin-left: 15px;
+#nav-navbar-collapse-1 ul li > a {
+  font-size: 18px;
 }
-/* line 19, ../compass/sass/style.scss */
-nav #titles h1 .first-letter {
-  font-size: 80px;
-}
-
-/* line 33, ../compass/sass/style.scss */
-li {
-  color: black;
+@media all and (max-width: 768px) {
+  /* line 20, ../compass/sass/style.scss */
+  #nav-navbar-collapse-1 ul {
+    width: 30%;
+  }
 }
 
-/* line 36, ../compass/sass/style.scss */
+/* line 26, ../compass/sass/style.scss */
 #nav-list {
   position: absolute;
   top: 68px;
   left: 69%;
-  font-size: 18px;
+}
+
+/* line 32, ../compass/sass/style.scss */
+#name {
+  display: inline-block;
+  position: absolute;
+  left: 0%;
+  top: 25px;
+  float: left;
+}
+/* line 38, ../compass/sass/style.scss */
+#name h1 {
+  font-size: 45px;
+}
+/* line 41, ../compass/sass/style.scss */
+#name #p {
+  margin-right: -10px;
+}
+/* line 44, ../compass/sass/style.scss */
+#name #w, #name #m {
+  margin-left: 15px;
+}
+/* line 47, ../compass/sass/style.scss */
+#name .first-letter {
+  font-size: 80px;
+}
+
+/* line 51, ../compass/sass/style.scss */
+#view {
+  margin-top: 120px;
 }
