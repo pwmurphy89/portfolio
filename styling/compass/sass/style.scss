@@ -2,6 +2,9 @@ nav{
 	height: 120px;
 	color:white;
 }
+#navbar{
+	border-bottom: 1px solid white;
+}
 .navbar-toggle.collapsed
 {
 	z-index: 100
@@ -21,7 +24,6 @@ nav{
 			width: 30%;
 		}
 	}
-
 }
 #nav-list{
 	position: absolute;
@@ -52,36 +54,79 @@ nav{
 	margin-top: 120px;
 }
 #front{
-	margin-top: 100px;
 	color:white;
+	font-family: 'Monda', sans-serif;
+}
+#typing-header{
+	margin-top: 50px;
+	font-size: 40px;
+	color: #4EB4DE;
+
+}
+#studentHeader{
+	font-size: 22px;
+	margin: -8px auto;
+	color:#C7C752;
+}
+#graduation{
+	font-size: 20px;
+	color: #B137EA;
+}
+#js, #php{
+	margin-top: 20px;
+	font-size: 30px;
+	text-decoration: underline;
+}
+#univ{
+	font-size: 26px;
+	margin-top: 45px;
+	color: orange;
+}
+.stack{
+	font-size: 18px;
+	color: #D62626
+}
+#language{
+	margin-top: 40px;
+	font-size: 20px;
 }
 #image-wrapper{
 	margin-top: 75px;
+	h4, h6{
+		color: white;
+	}
 	.caption{
 			margin: -16px -5px -20px -5px;
 			height: 120px;
+			h6{
+				margin-bottom: 5px;
+				color:white;
+			}
 	}
-	.thumbnail img{
-		height: 230px;
-	}
-	p.one-line{
-			margin: 0px;
-	}
-	p{
-		font-size: 20px;
-		margin: -10px;
-
-		a{
-			padding: 20px;
+	.thumbnail{
+		background-color: #222;
+		img{
+			height: 230px;
 		}
-
+		p{
+			font-size: 18px;
+			margin: -3px;
+			a{
+				padding: 2px;
+				background-color: white;
+				color:black;
+				border-radius: 7px;
+	 
+			}
+		}
 	}
 }
 #stacks{
 	#mean{
 		img{
-			width: 38%;
+			width: 70%;
 			float: left;
+			margin-top: 28px;
 		}
 		h1{
 			margin-top: 34px;
@@ -92,8 +137,9 @@ nav{
 	#lamp{
 		margin-top: 10px;
 		img{
-			width:23%;
-			float: left;
+			width:70%;
+			margin-top: -50px;
+    		float: right;
 		}
 		h1{
 			margin-left:125px;
@@ -109,5 +155,57 @@ nav{
 	img{
 		width:100%;
 		height: 200px;
+	}
+}
+#three{
+	img{
+		width: 90%;
+
+	}
+}
+#lists{
+	color:white;
+}
+#additional{
+	img{
+		width: 20%;
+	}
+}
+#js{
+	img{
+		height: 700px;
+		position:absolute;
+		left:-170px;
+		width: 125%;
+		opacity: 0.5;	
+	}
+}
+#contact{
+	h2{
+		color: white;
+		margin-top: 30px;
+		font-size: 50px;
+		margin-bottom: 30px;
+	}
+
+}
+#contact-links{
+	margin-bottom: 45px;
+}
+#git{
+	img{
+		width:50%;
+	}
+}
+#link{
+	img{
+		width: 49%;
+	}
+}
+
+#mail{
+	img{
+		width: 127%;
+		margin-top:-10px;
 	}
 }

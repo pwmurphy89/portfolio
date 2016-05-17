@@ -3,16 +3,68 @@ var myApp = angular.module("myApp",['ngRoute']);
 myApp.config(function($routeProvider, $locationProvider){
 	$routeProvider.when('/', {
 		templateUrl: 'views/front.html',
-		controller: 'myController'
+		controller: 'frontController'
 	}).when('/technologies',{
 		templateUrl: 'views/technologies.html',
 		controller: 'myController'
 	}).when('/projects',{
 		templateUrl: 'views/projects.html',
 		controller: 'myController'
+	}).when('/contact',{
+		templateUrl: 'views/contact.html',
+		controller: 'myController'
 	})
 });
 
 myApp.controller("myController", function($scope,$location){
-	$scope.message = "HELLO";
 });
+
+myApp.controller("frontController", function($scope,$location){
+  function typeItOut(sentence, id){
+	    document.getElementById(id).innerHTML = '';
+	      for(var i = 0; i < sentence.length; i++){
+	        (function(index) {
+	          setTimeout(function() {
+	            document.getElementById(id).innerHTML+=sentence[index];
+	          }, 60 * i);
+	        })(i);
+	      }
+  }
+  setTimeout(
+    function(){
+      typeItOut('Full Stack Web Developer', 'typing-header');
+      setTimeout(
+        function(){
+          typeItOut('DigitalCrafts Immersive Code School', 'studentHeader');
+          setTimeout(
+            function(){
+              typeItOut('June 2016', 'graduation');
+              setTimeout(
+                function(){
+                  typeItOut('JavaScript', 'js');                       
+                  setTimeout(
+                	function(){
+	                  typeItOut('PHP', 'php'); 
+	                  setTimeout(
+		                function(){
+		                  typeItOut('MEAN STACK', 'mean'); 
+		                  setTimeout(
+			                function(){
+			                  typeItOut('LAMP STACK', 'lamp'); 
+			                  setTimeout(
+			                    function(){
+			                      typeItOut('B.A. University of Tennessee', 'univ');
+			                      setTimeout(
+			                        function(){
+			                          typeItOut('Multilingual: Mandarin Chinese, Thai, Spanish, English', 'language');
+			                        }, 1600);
+			                    }, 1000);
+			                }, 700);
+			            }, 700);
+			        }, 900);
+			    }, 1000);
+	        }, 2100);
+        }, 1600);
+    }, 500);  
+});
+	

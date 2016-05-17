@@ -1,0 +1,56 @@
+		<div id="contact" class="row text-center">
+			<h2>CONTACT ME</h2>
+			<div id="contact-links" class="col-sm-6 col-sm-offset-3">
+				<div id="git" class="col-sm-4 text-center">
+					<a href="https://github.com/pwmurphy89" target="_blank">
+						<img src="../images/github1.png">
+					</a>
+				</div>
+				<div id="link" class="col-sm-4 text-center">
+					<a href="https://www.linkedin.com/in/patrick-murphy-12561166?trk=nav_responsive_tab_profile" target="_blank">
+						<img src="../images/linkedin.png">
+					</a>
+				</div>
+				<div id="mail" class="col-sm-4 text-center">
+					<a href="mailto:pwmurphy89@gmail.com">
+						<img src="../images/gmail.png">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-sm-6 col-sm-offset-3">
+				<form id="contact-form" name="contact-form" action="http://pwmurphy.com/mail.php" method="post">
+					<div class="form-group" id="name-wrapper">
+						<label class="labels" for="names">
+							<input name="name" type="text" class="form-control" placeholder="Name...">
+							<span id="name-error" class="error-text"></span>
+						</label>
+					</div>
+					<div class="form-group">
+						<label class="labels" for="email">
+							<input type="email" class="form-control" placeholder="Email..." id="email" name="email">
+							<span class="error"></span>
+						</label>
+					</div>
+					<div class="form-group">
+						<label class="labels" for="phone">
+							<input type="tel" class="form-control" placeholder="Telephone..." id="phone" name="phone">
+						</label>
+					</div>
+					<div class="form-group" id="message-wrapper">
+						<label class="labels" for="message" id="messageIN">
+							<textarea name="message" class="form-control" id="message" placeholder="Message..."></textarea>
+							<span id="message-error" class="error-text"></span>
+						</label>
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+
+
+							
+<script>
+	$.backstretch("styling/images/blackorangecode.jpg");
+</script>
