@@ -2,16 +2,16 @@ var myApp = angular.module("myApp",['ngRoute']);
 
 myApp.config(function($routeProvider, $locationProvider){
 	$routeProvider.when('/', {
-		templateUrl: 'views/front.html',
+		templateUrl: 'portfolio/views/front.html',
 		controller: 'frontController'
 	}).when('/technologies',{
-		templateUrl: 'views/technologies.html',
+		templateUrl: 'portfolio/views/technologies.html',
 		controller: 'myController'
 	}).when('/projects',{
-		templateUrl: 'views/projects.html',
+		templateUrl: 'portfolio/views/projects.html',
 		controller: 'myController'
 	}).when('/contact',{
-		templateUrl: 'views/contact.html',
+		templateUrl: 'portfolio/views/contact.html',
 		controller: 'myController'
 	})
 });
