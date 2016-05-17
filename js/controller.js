@@ -57,12 +57,12 @@ myApp.controller("frontController", function($scope,$location){
 			                      setTimeout(
 			                        function(){
 			                          typeItOut('Multilingual: Mandarin Chinese, Thai, Spanish, English', 'language');
-			                        }, 1600);
-			                    }, 1000);
+			                        }, 1500);
+			                    }, 700);
 			                }, 700);
 			            }, 700);
-			        }, 900);
-			    }, 1000);
+			        }, 700);
+			    }, 900);
 	        }, 2100);
         }, 1600);
     }, 500);  
