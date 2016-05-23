@@ -1,4 +1,3 @@
-
 <?php
        require_once('/usr/share/php/libphp-phpmailer/class.phpmailer.php');
        $mail = new PHPMailer(); // defaults to using php "mail()"
