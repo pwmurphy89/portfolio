@@ -14,6 +14,6 @@
        if(!$mail->Send()) {
        echo "Mailer Error: " . $mail->ErrorInfo;
        } else {
-       header("Location: http://www.pwmurphy.com/#/thankyou.html");
+       header("Location: http://www.pwmurphy.com?message=sent");
        }
 ?>
