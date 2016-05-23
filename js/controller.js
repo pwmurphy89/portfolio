@@ -13,6 +13,9 @@ myApp.config(function($routeProvider, $locationProvider){
 	}).when('/contact',{
 		templateUrl: 'portfolio/views/contact.html',
 		controller: 'myController'
+	}).when('/thankyou',{
+		templateUrl: 'portfolio/views/thankyou.html',
+		controller: 'myController'
 	})
 });
 
