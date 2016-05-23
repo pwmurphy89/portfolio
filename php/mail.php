@@ -1,4 +1,7 @@
 <?php
+       ini_set('display_errors', 1);
+       ini_set('display_startup_errors', 1);
+       error_reporting(E_ALL);
        require_once('/usr/share/php/libphp-phpmailer/class.phpmailer.php');
        $mail = new PHPMailer(); // defaults to using php "mail()"
        $body = $_POST['message']; //euqal to req.body.message
