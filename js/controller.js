@@ -63,7 +63,7 @@ myApp.controller("frontController", function($scope,$location){
 			         					setTimeout(
 			                      			function(){
 			                      				typeItOut('<----This is the code that types ^everything above^ out. ;)', 'explain');
-			                   		 	}, 2500);
+			                   		 	}, 3000);
 			                      	}, 1500);
 			                    }, 700);
 			                }, 700);
