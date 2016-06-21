@@ -60,7 +60,11 @@ myApp.controller("frontController", function($scope,$location){
 			                      setTimeout(
 			                        function(){
 			                          typeItOut('Multilingual: Mandarin Chinese, Thai, Spanish, English', 'language');
-			                        }, 1500);
+			         					setTimeout(
+			                      			function(){
+			                      				typeItOut('<----This is the function that types ^this^ out. ;)', 'explain');
+			                   		 	}, 1500);
+			                      	}, 1500);
 			                    }, 700);
 			                }, 700);
 			            }, 700);
