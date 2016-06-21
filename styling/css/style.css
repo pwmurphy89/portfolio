@@ -247,3 +247,8 @@ nav {
   width: 127%;
   margin-top: -10px;
 }
+
+/* line 212, ../compass/sass/style.scss */
+#explain {
+  margin-top: 20px;
+}
